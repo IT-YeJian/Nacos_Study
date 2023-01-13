@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T09:07:04.878Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="kevDy8MLH9eouwdnw4_9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-13T08:28:46.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="LYTIGSi5GIyi_drcf3y5" type="github">
   <diagram id="gBVBJpbxsoqlgOK4VZeo" name="第 1 页">
-    <mxGraphModel dx="1194" dy="1798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,6 +133,51 @@
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-43" value="服务端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="20" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-44" target="R_mdDU6zKTO6Eg03_8yZ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-44" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;客户端入口 spring-cloud-starter-alibaba-nacos-config&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="950" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-45" target="R_mdDU6zKTO6Eg03_8yZ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-45" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;NacosConfigBootstrapCongiguration&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1040" width="350" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-47" target="R_mdDU6zKTO6Eg03_8yZ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-47" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;NacosConfigManager&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1120" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-49" target="R_mdDU6zKTO6Eg03_8yZ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-49" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;通过单例方式创建NacosConfigService&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1169" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-51" target="R_mdDU6zKTO6Eg03_8yZ-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-51" target="R_mdDU6zKTO6Eg03_8yZ-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-51" value="public NacosConfigService(Properties properties) throws NacosException {&lt;br&gt;&lt;div&gt;this.agent..这里用了装饰模式封装远程请求&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.worker = new ClientWorker(this.agent, this.configFilterChainManager, propert&lt;/div&gt;&lt;div&gt;&lt;b&gt;init ();&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;this.executor //每10ms检测本地配置&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.executorService 执行长轮询的线程&lt;/div&gt;&lt;/div&gt;}&lt;br&gt;&lt;br&gt;装饰模式更多的是扩展功能 继承关系的替代方案, 和代理模式不一样，代理模式是给对象提供代理对象，并由代理对象控制原有对象的引用 前者重在添加功能 后者重在对代理对象加以控制" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1240" width="360" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-53" value="ClientWorker构造方法里有个init方法&lt;br&gt;&lt;div&gt;private void init(Properties properties) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; timeout =30000 发送给服务端让其持有连接30秒在响应给客户端&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; taskPenaltyTime =...&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.enableRemoteSyncConfig=...&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1760" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-55" target="R_mdDU6zKTO6Eg03_8yZ-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-55" value="创建2个线程池&lt;br&gt;&lt;br&gt;第一个每10ms检测配置变更checkConfigInfo()&lt;br&gt;&amp;nbsp;第二个处理长轮询" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1390" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-57" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="795" y="1425" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
