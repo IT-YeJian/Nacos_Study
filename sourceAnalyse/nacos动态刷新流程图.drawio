@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T07:06:38.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="l042Cx8z6RbhyZaIyH_f" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T06:44:54.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="qp1b0tRp6XtH2jo34zg6" type="github">
   <diagram id="gBVBJpbxsoqlgOK4VZeo" name="第 1 页">
     <mxGraphModel dx="1194" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,11 +211,16 @@
             <mxPoint x="1370" y="1530" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1410" y="1570" />
+              <mxPoint x="1810" y="1570" />
+              <mxPoint x="2020" y="1570" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="1620" width="120" height="60" as="geometry" />
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-65" target="R_mdDU6zKTO6Eg03_8yZ-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-65" value="2.检测服务端配置&lt;br&gt;checkUpdateDataIds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="1630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-66" target="R_mdDU6zKTO6Eg03_8yZ-67">
           <mxGeometry relative="1" as="geometry" />
@@ -249,6 +254,12 @@
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-84" value="为什么要检测本地呢 ？？？&lt;br&gt;&lt;br&gt;因为客户端去访问nacos集群 有时候突然访问不到了 就需要这种缓存检查机制区检查本地文件 保障能用 ；检查本地配置文件跟我当前所使用的缓存里的配置是否一致 如果不一一样的话 会根据本地配置文件去更新本地缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="661" y="2080" width="720" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-85" value="checkUpdateConfigStr&lt;br&gt;将dataId Group等拼装成字符串 发送请求获取服务端变更的dataId+Group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1754" width="180" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-87" value="1.将Long-Pulling-Timeout-No-Hangup放入header如果是第一次初始化则" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="1855" width="300" height="165" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
