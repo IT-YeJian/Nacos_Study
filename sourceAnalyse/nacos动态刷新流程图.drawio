@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T06:44:54.334Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="qp1b0tRp6XtH2jo34zg6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T08:15:04.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="0CHDievBcduE84vSCBfp" type="github">
   <diagram id="gBVBJpbxsoqlgOK4VZeo" name="第 1 页">
     <mxGraphModel dx="1194" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,8 +258,14 @@
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-85" value="checkUpdateConfigStr&lt;br&gt;将dataId Group等拼装成字符串 发送请求获取服务端变更的dataId+Group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1930" y="1754" width="180" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-87" value="1.将Long-Pulling-Timeout-No-Hangup放入header如果是第一次初始化则" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-87" target="R_mdDU6zKTO6Eg03_8yZ-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-87" value="1.将Long-Pulling-Timeout-No-Hangup放入header如果是第一次初始化则立刻返回最新dataid+Group&lt;br&gt;2.发送请求获取最新更改的dataId+Group ，请求的接口/v1/cs/configs/listener" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1870" y="1855" width="300" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-88" value="ConfigController#listener&lt;br&gt;1.解析客户端传递过来的可能发生配置变更的项目&lt;br&gt;2.开始挂住请求长轮询doPollingConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1895" y="2060" width="250" height="147.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
