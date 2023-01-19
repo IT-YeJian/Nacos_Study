@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T23:55:14.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="Qb2qksCR44SlQvhcxpMv" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-19T00:05:25.654Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="CRpIqyH-V5J0xghhiowe" type="github">
   <diagram id="gBVBJpbxsoqlgOK4VZeo" name="第 1 页">
     <mxGraphModel dx="1194" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,52 +134,52 @@
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-43" value="服务端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="20" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-44" target="R_mdDU6zKTO6Eg03_8yZ-45">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-44" target="R_mdDU6zKTO6Eg03_8yZ-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-44" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;客户端入口 spring-cloud-starter-alibaba-nacos-config&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-44" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;客户端入口 spring-cloud-starter-alibaba-nacos-config&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="30" y="950" width="330" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-45" target="R_mdDU6zKTO6Eg03_8yZ-47">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-45" target="R_mdDU6zKTO6Eg03_8yZ-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-45" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;NacosConfigBootstrapCongiguration&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="1040" width="350" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-47" target="R_mdDU6zKTO6Eg03_8yZ-49">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-47" target="R_mdDU6zKTO6Eg03_8yZ-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-47" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;NacosConfigManager&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-47" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;NacosConfigManager&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="50" y="1120" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-49" target="R_mdDU6zKTO6Eg03_8yZ-51">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-49" target="R_mdDU6zKTO6Eg03_8yZ-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-49" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;通过单例方式创建NacosConfigService&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-49" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;通过单例方式创建NacosConfigService&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="50" y="1169" width="290" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-51" target="R_mdDU6zKTO6Eg03_8yZ-53">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-51" target="R_mdDU6zKTO6Eg03_8yZ-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-51" target="R_mdDU6zKTO6Eg03_8yZ-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-51" value="public NacosConfigService(Properties properties) throws NacosException {&lt;br&gt;&lt;div&gt;this.agent..这里用了装饰模式封装远程请求&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.worker = new ClientWorker(this.agent, this.configFilterChainManager, propert&lt;/div&gt;&lt;div&gt;&lt;b&gt;init ();&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;this.executor //每10ms检测本地配置&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.executorService 执行长轮询的线程&lt;/div&gt;&lt;/div&gt;}&lt;br&gt;&lt;br&gt;装饰模式更多的是扩展功能 继承关系的替代方案, 和代理模式不一样，代理模式是给对象提供代理对象，并由代理对象控制原有对象的引用 前者重在添加功能 后者重在对代理对象加以控制" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-51" value="public NacosConfigService(Properties properties) throws NacosException {&lt;br&gt;&lt;div&gt;this.agent..这里用了装饰模式封装远程请求&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.worker = new ClientWorker(this.agent, this.configFilterChainManager, propert&lt;/div&gt;&lt;div&gt;&lt;b&gt;init ();&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;this.executor //每10ms检测本地配置&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.executorService 执行长轮询的线程&lt;/div&gt;&lt;/div&gt;}&lt;br&gt;&lt;br&gt;装饰模式更多的是扩展功能 继承关系的替代方案, 和代理模式不一样，代理模式是给对象提供代理对象，并由代理对象控制原有对象的引用 前者重在添加功能 后者重在对代理对象加以控制" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="20" y="1240" width="360" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-53" value="ClientWorker构造方法里有个init方法&lt;br&gt;&lt;div&gt;private void init(Properties properties) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; timeout =30000 发送给服务端让其持有连接30秒在响应给客户端&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; taskPenaltyTime =...&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.enableRemoteSyncConfig=...&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-53" value="ClientWorker构造方法里有个init方法&lt;br&gt;&lt;div&gt;private void init(Properties properties) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; timeout =30000 发送给服务端让其持有连接30秒在响应给客户端&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; taskPenaltyTime =...&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.enableRemoteSyncConfig=...&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="25" y="1760" width="350" height="140" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-55" target="R_mdDU6zKTO6Eg03_8yZ-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-55" value="创建2个线程池&amp;nbsp;&lt;br&gt;&lt;br&gt;第一个调度线程池只有1个线程每10ms检测服务端的配置和本地配置的变更情况checkConfigInfo()&lt;br&gt;&amp;nbsp;第二个调度线程池只有cpu的个数的线程处理长轮询" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-55" value="创建2个线程池&amp;nbsp;&lt;br&gt;&lt;br&gt;第一个调度线程池只有1个线程每10ms检测服务端的配置和本地配置的变更情况checkConfigInfo()&lt;br&gt;&amp;nbsp;第二个调度线程池只有cpu的个数的线程处理长轮询" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="1390" width="190" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-57" target="R_mdDU6zKTO6Eg03_8yZ-59">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-57" target="R_mdDU6zKTO6Eg03_8yZ-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-57" value="checkConfigInfo()定时检测本地配置和服务端的配置变更" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-57" value="checkConfigInfo()定时检测本地配置和服务端的配置变更" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="900" y="1425" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-59" target="R_mdDU6zKTO6Eg03_8yZ-61">
@@ -190,19 +190,19 @@
             <mxPoint x="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-59" value="按照3000个配置文件(dataId的那种配置文件)一个批次的方式开启线程执行LongPollingRunnable长轮询任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-59" value="按照3000个配置文件(dataId的那种配置文件)一个批次的方式开启线程执行LongPollingRunnable长轮询任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1100" y="1370" width="240" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-61" target="R_mdDU6zKTO6Eg03_8yZ-66">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-61" target="R_mdDU6zKTO6Eg03_8yZ-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-61" target="R_mdDU6zKTO6Eg03_8yZ-70">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-61" target="R_mdDU6zKTO6Eg03_8yZ-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-61" target="R_mdDU6zKTO6Eg03_8yZ-74">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-61" target="R_mdDU6zKTO6Eg03_8yZ-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-61" value="1.检测本地配置checkLocalConfig" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-61" value="1.检测本地配置checkLocalConfig" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="990" y="1610" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-64" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="R_mdDU6zKTO6Eg03_8yZ-65">
@@ -219,67 +219,67 @@
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-65" target="R_mdDU6zKTO6Eg03_8yZ-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-65" value="2.检测服务端配置&lt;br&gt;checkUpdateDataIds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-65" value="2.检测服务端配置&lt;br&gt;checkUpdateDataIds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1960" y="1630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-66" target="R_mdDU6zKTO6Eg03_8yZ-67">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-66" target="R_mdDU6zKTO6Eg03_8yZ-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-66" value="没有使用本地文件但是又存在本地文件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-66" value="没有使用本地文件但是又存在本地文件" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="730" y="1770" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-67" value="设置UseLocalConfigInfo为true&lt;br&gt;使用本地文件 并且将本地文件的内容读取到cacheData的content属性中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-67" value="设置UseLocalConfigInfo为true&lt;br&gt;使用本地文件 并且将本地文件的内容读取到cacheData的content属性中" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="680" y="1900" width="220" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-70" target="R_mdDU6zKTO6Eg03_8yZ-72">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-70" target="R_mdDU6zKTO6Eg03_8yZ-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-70" value="如果使用本地配置但是本地文件又不存在的话" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-70" value="如果使用本地配置但是本地文件又不存在的话" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="970" y="1765" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-72" value="&amp;nbsp;就设置UseLocalConfigInfo为false 就打印警告 并返回" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-72" value="&amp;nbsp;就设置UseLocalConfigInfo为false 就打印警告 并返回" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="990" y="1930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-74" target="R_mdDU6zKTO6Eg03_8yZ-77">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-74" target="R_mdDU6zKTO6Eg03_8yZ-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-74" value="如果使用本地配置为true且本地文件存在且cacheData的版本号又和本地配置文件的最后修改时间戳不一致" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-74" value="如果使用本地配置为true且本地文件存在且cacheData的版本号又和本地配置文件的最后修改时间戳不一致" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1190" y="1740" width="150" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-77" value="设置UseLocalConfigInfo为true，设置cacheData的版本号为文件的最后修改时间戳，更新cacheData的content属性为本地文件中的内容" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-77" value="设置UseLocalConfigInfo为true，设置cacheData的版本号为文件的最后修改时间戳，更新cacheData的content属性为本地文件中的内容" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1160" y="1910" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-83" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="1010" y="1740" width="50" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-84" value="为什么要检测本地呢 ？？？&lt;br&gt;&lt;br&gt;因为客户端去访问nacos集群 有时候突然访问不到了 就需要这种缓存检查机制区检查本地文件 保障能用 ；检查本地配置文件跟我当前所使用的缓存里的配置是否一致 如果不一一样的话 会根据本地配置文件去更新本地缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-84" value="为什么要检测本地呢 ？？？&lt;br&gt;&lt;br&gt;因为客户端去访问nacos集群 有时候突然访问不到了 就需要这种缓存检查机制区检查本地文件 保障能用 ；检查本地配置文件跟我当前所使用的缓存里的配置是否一致 如果不一一样的话 会根据本地配置文件去更新本地缓存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="661" y="2080" width="720" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-85" target="R_mdDU6zKTO6Eg03_8yZ-87">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-85" target="R_mdDU6zKTO6Eg03_8yZ-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-85" value="checkUpdateConfigStr&lt;br&gt;将dataId Group等拼装成字符串 发送请求获取服务端变更的dataId+Group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-85" value="checkUpdateConfigStr&lt;br&gt;将dataId Group等拼装成字符串 发送请求获取服务端变更的dataId+Group" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1930" y="1754" width="180" height="66" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-87" target="R_mdDU6zKTO6Eg03_8yZ-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-87" value="1.将Long-Pulling-Timeout-No-Hangup放入header如果是第一次初始化则立刻返回最新dataid+Group&lt;br&gt;2.发送请求获取最新更改的dataId+Group ，请求的接口/v1/cs/configs/listener" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-87" value="1.将Long-Pulling-Timeout-No-Hangup放入header如果是第一次初始化则立刻返回最新dataid+Group&lt;br&gt;2.发送请求获取最新更改的dataId+Group ，请求的接口/v1/cs/configs/listener" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1870" y="1855" width="300" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-88" target="R_mdDU6zKTO6Eg03_8yZ-90">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-88" target="R_mdDU6zKTO6Eg03_8yZ-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-88" value="ConfigController#listener&lt;br&gt;1.解析客户端传递过来的可能发生配置变更的项目&lt;br&gt;2.开始挂住请求长轮询doPollingConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-88" value="ConfigController#listener&lt;br&gt;1.解析客户端传递过来的可能发生配置变更的项目&lt;br&gt;2.开始挂住请求长轮询doPollingConfig" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1895" y="2060" width="250" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-90" target="R_mdDU6zKTO6Eg03_8yZ-92">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-90" target="R_mdDU6zKTO6Eg03_8yZ-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-90" value="判断是否请求是长轮询 判断请求头是否有超时时间" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-90" value="判断是否请求是长轮询 判断请求头是否有超时时间" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1835" y="2200" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-92" value="&lt;b&gt;longPollingService.addLongPollingClient()方法里处理长轮询 ，在通过req.startAsync();将tomcat线程释放 不会阻塞后端, 走servlet3.0的异步api&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-92" value="&lt;b&gt;longPollingService.addLongPollingClient()方法里处理长轮询 ，在通过req.startAsync();将tomcat线程释放 不会阻塞后端, 走servlet3.0的异步api&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1840" y="2310" width="360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="R_mdDU6zKTO6Eg03_8yZ-96">
@@ -287,22 +287,22 @@
             <mxPoint x="2227.5" y="2610" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-94" value="在通过ConfigExecutor线程池创建线程executeLongPolling去执行长轮询后续任务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-94" value="在通过ConfigExecutor线程池创建线程executeLongPolling去执行长轮询后续任务" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2135" y="2540" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-96" target="R_mdDU6zKTO6Eg03_8yZ-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-96" value="ClientLongPolling.run&lt;br&gt;这个方法一开始就就延迟29.5s，若29.5s内再执行run方法里的逻辑" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-96" value="ClientLongPolling.run&lt;br&gt;这个方法一开始就就延迟29.5s，若29.5s内再执行run方法里的逻辑" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2122.5" y="2650" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-98" value="超过29.5s开始执行&lt;br&gt;1.&lt;u&gt;&lt;font color=&quot;#ff0000&quot;&gt;从队列里删除这个长轮询任务&lt;/font&gt;&lt;/u&gt;&lt;br&gt;2.如果发生改变 响应有更改的配置&lt;br&gt;3.没有改变也会响应返回null" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-98" value="超过29.5s开始执行&lt;br&gt;1.&lt;u&gt;&lt;font color=&quot;#ff0000&quot;&gt;从队列里删除这个长轮询任务&lt;/font&gt;&lt;/u&gt;&lt;br&gt;2.如果发生改变 响应有更改的配置&lt;br&gt;3.没有改变也会响应返回null" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2120" y="2770" width="215" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-100" value="allSubs缓存了客户端和服务端长轮询&lt;br&gt;它的初始化在LongPollingService的构造方法中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-100" value="allSubs缓存了客户端和服务端长轮询&lt;br&gt;它的初始化在LongPollingService的构造方法中" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2120" y="2870" width="217.5" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-101" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;LongPollingService构造方法内部已经创建好了&lt;/span&gt;allSubs队列用来保存 当前这次长轮询请求的 任务，并且注册配置文件变更事件，一旦配置文件变更 则创建DataChangeTask任务 由线程池统一调度 并触发响应给客户端" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-101" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;LongPollingService构造方法内部已经创建好了&lt;/span&gt;allSubs队列用来保存 当前这次长轮询请求的 任务，并且注册配置文件变更事件，一旦配置文件变更 则创建DataChangeTask任务 由线程池统一调度 并触发响应给客户端" style="whiteSpace=wrap;html=1;rounded=0;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1640" y="2560" width="210" height="170" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-103" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-92" target="R_mdDU6zKTO6Eg03_8yZ-101">
@@ -338,7 +338,7 @@
             <mxPoint x="2160" y="2480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-105" value="&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;两种方式触发响应给客户端&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-105" value="&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;两种方式触发响应给客户端&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1960" y="2450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-112" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontColor=#FF0000;" edge="1" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-101">
@@ -347,7 +347,7 @@
             <mxPoint x="2110" y="2800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-116" value="这里要注意在30s内 文件有变更、会走触发点1&lt;br&gt;响应一次客户端&lt;br&gt;&lt;br&gt;30s之后触发点2的存在会再次响应客户端所以在触发点2那里 一上来就删除队列里的请求任务避免重复响应给客户端" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="R_mdDU6zKTO6Eg03_8yZ-116" value="这里要注意在30s内 文件有变更、会走触发点1&lt;br&gt;响应一次客户端&lt;br&gt;&lt;br&gt;30s之后触发点2的存在会再次响应客户端所以在触发点2那里 一上来就删除队列里的请求任务避免重复响应给客户端" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1820" y="2770" width="190" height="310" as="geometry" />
         </mxCell>
       </root>
