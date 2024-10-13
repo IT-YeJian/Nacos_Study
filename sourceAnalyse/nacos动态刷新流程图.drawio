@@ -165,10 +165,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-51" value="public NacosConfigService(Properties properties) throws NacosException {&lt;br&gt;&lt;div&gt;this.agent..这里用了装饰模式封装远程请求&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.worker = new ClientWorker(this.agent, this.configFilterChainManager, propert&lt;/div&gt;&lt;div&gt;&lt;b&gt;init ();&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;this.executor //每10ms检测本地配置&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.executorService 执行长轮询的线程&lt;/div&gt;&lt;/div&gt;}&lt;br&gt;&lt;br&gt;装饰模式更多的是扩展功能 继承关系的替代方案, 和代理模式不一样，代理模式是给对象提供代理对象，并由代理对象控制原有对象的引用 前者重在添加功能 后者重在对代理对象加以控制" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="20" y="1240" width="360" height="430" as="geometry" />
+          <mxGeometry x="15" y="1250" width="360" height="430" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-53" value="ClientWorker构造方法里有个init方法&lt;br&gt;&lt;div&gt;private void init(Properties properties) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; timeout =30000 发送给服务端让其持有连接30秒在响应给客户端&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; taskPenaltyTime =...&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this.enableRemoteSyncConfig=...&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="25" y="1760" width="350" height="140" as="geometry" />
+          <mxGeometry x="20" y="1740" width="350" height="140" as="geometry" />
         </mxCell>
         <mxCell id="R_mdDU6zKTO6Eg03_8yZ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R_mdDU6zKTO6Eg03_8yZ-55" target="R_mdDU6zKTO6Eg03_8yZ-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
